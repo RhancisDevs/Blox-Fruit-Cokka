@@ -16,4 +16,4 @@ wait(5)
 sendNotification("Consequence", playerName .. ", you will be kicked from the game as a warning.", 2)
 wait(2)
 
-player:Kick("You were kicked from this experience: Exploiting is not allowed, " .. playerName .. ". Please play fair. (Error Code: 267)")
+player:Kick("You were kicked from this experience: Exploiting is not allowed, " .. playerName .. ". Please play fair.")
