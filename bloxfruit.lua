@@ -8,11 +8,11 @@ local LevelUpSound = game:GetService("ReplicatedStorage").Util.Sound.Storage.Oth
 
 local playerName = plr.DisplayName
 
-Notification.new("Warning: " .. playerName .. ", your actions are being monitored by rip_indra"):Display()
+Notification.new("Warning: " .. playerName .. ", your actions are monitored."):Display()
 wait(3)
-Notification.new("Notice: " .. playerName .. ", exploiting is against the rules and ruins the game for others."):Display()
+Notification.new("Notice: " .. playerName .. ", exploiting ruins the game."):Display()
 wait(5)
-Notification.new("Consequence: " .. playerName .. ", you will be kicked from the game as a warning."):Display()
+Notification.new("Consequence: " .. playerName .. ", you will be kicked."):Display()
 wait(2)
 
 plr:Kick("You're permanently banned from this game.")
